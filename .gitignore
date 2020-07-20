@@ -1,0 +1,5 @@
+.idea/
+.ipynb_checkpoints/
+data/
+sent140_and_airline_balanced.csv
+Airline_Sentiment.ipynb
