@@ -1,5 +1,5 @@
 I classify the sentiment of tweets within [this dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) as `positive`, `neutral`, or `negative` using the fast.ai implementation of [ULMFiT](https://arxiv.org/abs/1801.06146).
-1. I perform exploratory data analysis in [this notebook](Initial.ipynb) (TODO: better link).
+1. I perform exploratory data analysis in [this notebook](notebooks/Data.ipynb).
   - Create a train / test set, only looking at the train set for the rest of the project until the very end
   - Determine the distribution of classes
   - Get a sense of the defining characteristics of each class (the topic / tone of tweets of each sentiment)
