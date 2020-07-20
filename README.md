@@ -5,10 +5,10 @@ I classify the sentiment of tweets within [this dataset](https://www.kaggle.com/
   - Get a sense of the defining characteristics of each class (the topic / tone of tweets of each sentiment)
   - Describe how I augmented the airline dataset with a [different tweet dataset](https://www.kaggle.com/kazanova/sentiment140), making sure to keep the class distributions the same after doing the join
   - Beginning to consider using [yet another tweet dataset](https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/143094)
-2. [Creating a classifier based on the airline data alone](notebooks/Airline.ipynb)
+2. [Create a classifier based on the airline data alone](notebooks/Airline.ipynb)
   - Create a language model that can create useful embeddings for tweets
   - Use those embeddings to train a classifier
-3. [Creating a classifier based on airline data + sentiment-140 data](notebooks/Airline-and-Sentiment140.ipynb)
+3. [Create a classifier based on airline data + sentiment-140 data](notebooks/Airline-and-Sentiment140.ipynb)
   - Create a language model that can represent airline data + sentiment-140 data
   - Train a classifier using only airline data
 4. [Evaluate the performance of the best classifiers against the test set](notebooks/Testing.ipynb)
