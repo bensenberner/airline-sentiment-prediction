@@ -8,11 +8,12 @@ I classify the sentiment of tweets within [this dataset](https://www.kaggle.com/
 2. [Create a classifier based on the airline data alone](notebooks/Airline.ipynb)
     - Create a language model that can create useful embeddings for tweets
     - Use those embeddings to train a classifier
+    - Train another classifier in which I oversample the minority classes in a bid to achieve a higher auc-roc score
 3. [Create a classifier based on airline data + sentiment-140 data](notebooks/Airline-and-Sentiment140.ipynb)
     - Create a language model that can represent airline data + sentiment-140 data
     - Train a classifier using only airline data
 4. [Evaluate the performance of the best classifiers against the test set](notebooks/Testing.ipynb)
-    - Compute the test accuracy (83.2%), compare it to the baseline
+    - Compute the test accuracy of all models, compare it to the baseline
     - Compute the au-roc score
     - Examine the confusion matrix to determine the most common types of mistakes the classifier mistakes
     - Explore those mistakes and try to determine if any meaningful patterns exist
@@ -27,4 +28,6 @@ fast.ai challenge questions:
   - Look at the frequency of words within each sentiment
   - Distribution of "label confidence" for each sentiment
 ------
-TODO: Describe why fast.ai's accuracy metrics were  confusing
+TODO:
+- Describe why fast.ai's accuracy metrics were confusing
+- Wasn't able to achieve reproducible steps in google col
