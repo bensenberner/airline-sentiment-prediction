@@ -35,3 +35,4 @@ fast.ai challenge questions:
 TODO:
 - Describe why fast.ai's accuracy metrics were confusing
 - Wasn't able to achieve reproducible steps in google col
+- Rather than random oversampling directly on the raw text data, create language model embeddings of all the tweets and then perform oversampling on those
